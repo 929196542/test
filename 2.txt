@@ -1,0 +1,3 @@
+cat input|xargs -n1|sort -o input_sorted
+sort dic -o dic_sorted
+comm -1 -3 dic_sorted input_sorted
